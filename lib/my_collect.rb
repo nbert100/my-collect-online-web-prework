@@ -1,4 +1,7 @@
 def my_collect(array)
-  while 
+   i = 0
+   while i < array.length
+   yield array[i]
+    i = i + 1
 array.collect { |value| value.upcase }
 end
