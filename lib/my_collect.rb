@@ -1,6 +1,6 @@
 def my_collect(array)
 
 array.collect { |value| value.upcase }
-yield {|name| name.split("").first
+yield {|value| value.split("").first
 end
 end
